@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="es">
   <head>
     <!-- Site Title-->
-    <title>Contacts</title>
+    <title>Donaciones</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +30,7 @@
     <div class="page text-center">
       <!-- Page Header-->
       <header class="page-head">
-        <!-- RD Navbar-->
+       <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
           <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-sm-stick-up-offset="50px" data-lg-stick-up-offset="90px">
             <div class="rd-navbar-inner">
@@ -44,24 +44,24 @@
               <div class="rd-navbar-nav-wrap">
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav">
-                  <li><a href="./">Home page</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                  <li><a href="about.html">About us</a>
+                  <li class="active"><a href="./">Inicio</a></li>
+		 <li><a href="nuestro-refugio">Nuestro Refugio</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="#">history</a></li>
-                      <li><a href="#">offers</a></li>
-                      <li><a href="#">news</a>
-                        <ul class="rd-navbar-dropdown">
-                          <li><a href="#">fresh</a></li>
-                          <li><a href="#">archive</a></li>
-                          <li><a href="404.html">404</a></li>
-                        </ul>
-                      </li>
+                      <li><a href="rescate-animal">Rescate Animal</a></li>
+                      <li><a href="voluntariado">Ser Voluntario</a></li>
+	              <li><a href="denuncia">Denuncia</a></li>
                     </ul>
-                  </li>
-                  <li><a href="links.html">Links</a></li>
-                  <li class="active"><a href="contacts.html">Contacts</a></li>
+                  </li>	
+	         <li><a href="nuestro-refugio">Adopciones</a>
+                    <!-- RD Navbar Dropdown-->
+                    <ul class="rd-navbar-dropdown">
+                      <li><a href="requisitos">Requisitos</a></li>
+	              <li><a href="ferias">Ferias de Adopción</a></li>
+                    </ul>
+                  </li>	
+                  <li><a href="donaciones.html">Donar</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
                 </ul>
               </div>
             </div>
@@ -70,63 +70,45 @@
       </header>
       <!-- Page Content-->
       <main class="page-content">
-        <section class="section-title section-title-left section-title-left-3" data-title="contact us">
+        <section>
           <div class="shell shell-wide">
-            <div class="page-counter page-counter-bottom-3"><img class="img-responsive center-block" src="images/contacts-01.png" alt=""></div>
-            <h4 class="offset-top-20">Contact form</h4>
-            <!-- RD Mailform-->
-            <form class="offset-top-40 range range-xs-center rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-              <div class="cell-md-10">
+            <div class="range text-sm-left">
+              <div class="cell-xl-10 cell-md-9">
+                <div class="jumbotron" style="background: url('images/index-01.jpg') center; background-size: cover;">
+	          <h1>Denuncia<span class="reveal-xs-block"></h1>
+                  <h2>Asociación de Bienestar y Ayuda Animalista Miau-Wuao<span class="reveal-xs-block"></h2>
+                </div>
+              </div>
+              <div class="cell-md-3 cell-xl-2 cell-xs-middle offset-top-40 offset-md-top-0">
                 <div class="range">
-                  <div class="cell-md-4">
-                    <div class="form-group">
-                      <label class="form-label" for="contact-name">Name</label>
-                      <input class="form-control" id="contact-name" type="text" name="name" data-constraints="@Required">
+                  <div class="cell-md-12 cell-sm-4">
+                    <div class="inset-xl-left-40">
+                      <h4>Síguenos</h4>
+                      <ul class="list-inline offset-top-20 offset-md-top-40">
+                        <li><a class="icon icon-gray icon-circle icon-xs fa-facebook" href="https://www.facebook.com/profile.php?id=100069197778070" target="_blank"></a></li>
+                        <li><a class="icon icon-gray icon-circle icon-xs fa-youtube" href="#"></a></li>
+                        <li><a class="icon icon-gray icon-circle icon-xs fa-instagram" href="#"></a></li>
+                      </ul>
                     </div>
                   </div>
-                  <div class="cell-md-4 offset-top-30 offset-md-top-0">
-                    <div class="form-group">
-                      <label class="form-label" for="contact-phone">Phone</label>
-                      <input class="form-control" id="contact-phone" type="text" name="phone" data-constraints="@Numeric @Required">
-                    </div>
-                  </div>
-                  <div class="cell-md-4 offset-top-30 offset-md-top-0">
-                    <div class="form-group">
-                      <label class="form-label" for="contact-email">Email</label>
-                      <input class="form-control" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
-                    </div>
-                  </div>
-                  <div class="cell-md-12 offset-top-30">
-                    <div class="form-group">
-                      <label class="form-label" for="contact-message">Message</label>
-                      <textarea class="form-control" id="contact-message" name="message" data-constraints="@Required"></textarea>
-                    </div>
-                    <div class="text-center offset-top-65">
-                      <button class="btn btn-default" type="submit">send message</button>
+                  <div class="cell-md-12 cell-sm-4 offset-top-40 offset-sm-top-0 offset-md-top-80">
+                    <div class="inset-xl-left-40">
+                      <h4>contactos</h4>
+                      <div class="offset-top-20 offset-md-top-40"><span class="text-middle icon icon-xs text-primary inset-right-10 material-icons-phonelink_ring"></span><a class="extra-big" href="tel:#">+506 6467 0230</a></div>
+                      <div class="offset-top-10"><span class="text-middle icon icon-xs text-primary inset-right-10 material-icons-email"></span><a class="big" href="mailto:#">info@demolink.org</a></div>
                     </div>
                   </div>
                 </div>
               </div>
-            </form>
-          </div>
-        </section>
-        <section class="section-top-92">
-          <div class="shell shell-wide">
-            <!-- RD Google Map-->
-            <div class="rd-google-map rd-google-map__model" data-zoom="12" data-x="-73.9874068" data-y="40.643180" data-styles="[{&quot;featureType&quot;:&quot;administrative.locality&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#2c2e33&quot;},{&quot;saturation&quot;:7},{&quot;lightness&quot;:19},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ffffff&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:100},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ffffff&quot;},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:100},{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#bbc0c4&quot;},{&quot;saturation&quot;:-93},{&quot;lightness&quot;:31},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#bbc0c4&quot;},{&quot;saturation&quot;:-93},{&quot;lightness&quot;:31},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#bbc0c4&quot;},{&quot;saturation&quot;:-93},{&quot;lightness&quot;:-2},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#e9ebed&quot;},{&quot;saturation&quot;:-90},{&quot;lightness&quot;:-8},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#e9ebed&quot;},{&quot;saturation&quot;:10},{&quot;lightness&quot;:69},{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#e9ebed&quot;},{&quot;saturation&quot;:-78},{&quot;lightness&quot;:67},{&quot;visibility&quot;:&quot;simplified&quot;}]}]">
-              <ul class="map_locations">
-                <li data-y="40.643180" data-x="-73.9874068">
-                  <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
-                </li>
-              </ul>
             </div>
           </div>
         </section>
-      </main>
+
+
       <!-- Page Footer-->
       <footer class="page-footer">
         <div class="container"><span>&#169;</span> <span id="copyright-year"></span>
-          <hr class="divider divider-default divider-vertical"><a href="privacy.html">Privacy policy</a>
+          <hr class="divider divider-default divider-vertical"><a href="https://wwww.grafikoart.com target="_blank">Desarrollado por Grafiko Art</a>
         </div>
       </footer>
     </div>
