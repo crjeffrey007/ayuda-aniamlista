@@ -21763,8 +21763,9 @@ textarea {
 	padding-top: 30px;
 }
 
-a:hover, a:focus {
-	outline: none;
+.page-content1 {
+	padding-top: 30px;
+	background: #e1e1e1;}
 }
 
 .relative {
