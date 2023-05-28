@@ -35971,3 +35971,23 @@ a.pswp__share--download:hover {
     .slider-pagination-item.active {
       background-color: #000000;
     }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column-40 {
+      width: 40%;
+      padding: 10px;
+    }
+
+    .column-60 {
+      width: 60%;
+      padding: 10px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .column-40, .column-60 {
+        width: 100%;
+      }
+    }
