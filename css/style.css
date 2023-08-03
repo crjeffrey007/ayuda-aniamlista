@@ -35971,3 +35971,9 @@ a.pswp__share--download:hover {
     .slider-pagination-item.active {
       background-color: #000000;
     }
+
+  .custom-img {
+    width: 50%; /* El doble de pequeña */
+    display: block;
+    margin: 0 auto; /* Centrada horizontalmente */
+  }
