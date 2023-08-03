@@ -35991,3 +35991,36 @@ a.pswp__share--download:hover {
     justify-content: center;
     height: 100%;
   }
+
+  /* Estilos para la sección de testimonio */
+  .testimonial-section {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+
+  .testimonial-image {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .testimonial-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .testimonial-role {
+    font-size: 14px;
+    color: #666;
+  }
