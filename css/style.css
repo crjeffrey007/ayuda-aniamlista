@@ -35992,7 +35992,7 @@ a.pswp__share--download:hover {
     height: 100%;
   }
 
-  /* Estilos para la sección de testimonio */
+ /* Estilos para la sección de testimonio */
   .testimonial-section {
     text-align: center;
     background-color: #f9f9f9;
@@ -36002,7 +36002,7 @@ a.pswp__share--download:hover {
   .testimonial-image {
     display: inline-block;
     width: 150px;
-    height: 150px;
+    height: 300px; /* Altura de la foto de Irene */
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
