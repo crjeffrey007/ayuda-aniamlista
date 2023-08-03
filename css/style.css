@@ -35977,3 +35977,9 @@ a.pswp__share--download:hover {
     display: block;
     margin: 0 auto; /* Centrada horizontalmente */
   }
+
+  .jumbotron {
+    height: 400px; /* Altura deseada para el contenedor */
+    background-size: cover;
+    background-position: center;
+  }
