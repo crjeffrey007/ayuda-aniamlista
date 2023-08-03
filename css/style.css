@@ -35983,3 +35983,11 @@ a.pswp__share--download:hover {
     background-size: cover;
     background-position: center;
   }
+
+  /* Estilos para centrar vertical y horizontalmente la imagen */
+  .carousel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
