@@ -10426,13 +10426,14 @@ address {
 	font-weight: 700;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+	backgorund: #bebebe;
 }
 
 @media (min-width: 992px) {
 	.page-footer {
 		padding-top: 78px;
 		padding-bottom: 85px;
-	}
+		backgorund: #bebebe;
 }
 
 .page-footer,
