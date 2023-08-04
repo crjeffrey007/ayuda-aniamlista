@@ -36025,3 +36025,22 @@ a.pswp__share--download:hover {
     font-size: 14px;
     color: #666;
   }
+
+  /* Estilos generales para la sección de dos columnas */
+  .two-column-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Estilo para la primera columna (imagen de fondo) */
+  .column-image {
+    flex: 0 0 40%; /* Tamaño de la primera columna (40%) */
+    background: url('ruta-a-la-imagen.jpg') center / cover no-repeat;
+    height: 400px; /* Altura de la columna (ajustar según necesites) */
+  }
+
+  /* Estilo para la segunda columna (texto) */
+  .column-text {
+    flex: 0 0 60%; /* Tamaño de la segunda columna (60%) */
+    padding: 20px;
+  }
