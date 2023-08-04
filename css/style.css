@@ -10438,6 +10438,7 @@ address {
 .page-footer,
 .page-footer a {
 	color: #313131;
+	backgorund: #bebebe;
 }
 
 .page-footer * {
