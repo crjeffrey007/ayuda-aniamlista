@@ -36002,7 +36002,7 @@ a.pswp__share--download:hover {
   .testimonial-image {
     display: inline-block;
     width: 150px;
-    height: 300px; /* Altura de la foto de Irene */
+    height: 150px; /* Altura de la foto de Irene */
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 20px;
