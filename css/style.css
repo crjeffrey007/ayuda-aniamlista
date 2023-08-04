@@ -35980,6 +35980,11 @@ a.pswp__share--download:hover {
     margin: 0 auto; /* Centrada horizontalmente */
   }
 
+    .custom-img1 {
+    width: 50%; /* El doble de pequeña */
+    display: block;
+    margin: 0 auto; /* Centrada horizontalmente */
+  }
   .jumbotron {
     height: 400px; /* Altura deseada para el contenedor */
     background-size: cover;
