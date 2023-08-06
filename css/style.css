@@ -35981,7 +35981,7 @@ a.pswp__share--download:hover {
   }
 
     .custom-img1 {
-    width: 50%; /* El doble de pequeña */
+    width: 100%; /* El doble de pequeña */
     display: block;
     margin: 0 auto; /* Centrada horizontalmente */
   }
