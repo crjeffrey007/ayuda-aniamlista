@@ -36056,3 +36056,24 @@ a.pswp__share--download:hover {
     flex: 0 0 100%; /* Tamaño de las columnas de la segunda fila al 100% */
     padding: 20px;
   }
+
+        .section-92 {
+            text-align: center;
+        }
+
+        .range {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .cell {
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        .cell h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
